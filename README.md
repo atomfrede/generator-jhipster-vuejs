@@ -1,5 +1,7 @@
 # generator-jhipster-vuejs [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
+![JHipster with Vue.js][logo-image]
+
 > Use Vuew.js instead of angular as a front end for jhipster
 
 ## Installation
@@ -28,4 +30,4 @@ Apache-2.0 © [Frederik Hahne](http://atomfrede.github.io/shiny-adventure/)
 [travis-url]: https://travis-ci.org/atomfrede/generator-jhipster-vuejs
 [daviddm-image]: https://david-dm.org/atomfrede/generator-jhipster-vuejs.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/atomfrede/generator-jhipster-vuejs
-[result-image]: https://raw.githubusercontent.com/atomfrede/generator-jhipster-vuejs/master/screen.png
+[logo-image]: https://raw.githubusercontent.com/atomfrede/generator-jhipster-vuejs/master/logo-vueister.svg.png
