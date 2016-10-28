@@ -1,0 +1,44 @@
+{
+  "name": "generator-jhipster-vuejs",
+  "version": "1.0.0",
+  "description": "JHipster module to use Vue.js instead of angular as a front end for jhipster",
+  "homepage": "https://github.com/atomfrede/generator-jhipster-vuejs",
+  "author": "Frederik Hahne <atomfrede@gmail.com> (http://atomfrede.github.com/shiny-adventure/)",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "jhipster-module",
+    "vuejs"
+   ],
+  "dependencies": {
+    "yeoman-generator": "0.21.1",
+    "chalk": "1.0.0",
+    "yosay": "1.0.2",
+    "generator-jhipster": ">=3.0.0"
+  },
+  "devDependencies": {
+    "yeoman-assert": "2.0.0",
+    "gulp": "3.6.0",
+    "gulp-eslint": "1.0.0",
+    "gulp-exclude-gitignore": "1.0.0",
+    "gulp-istanbul": "0.9.0",
+    "gulp-mocha": "2.0.0",
+    "gulp-plumber": "1.0.0",
+    "gulp-nsp": "2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomfrede/generator-jhipster-vue-s.git"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/atomfrede/generator-jhipster-vuejs/issues"
+  }
+}
