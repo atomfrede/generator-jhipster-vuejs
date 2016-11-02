@@ -1,5 +1,5 @@
 {
-  "name": "<%_ baseName _%>",
+  "name": "<%= angularAppName %>",
   "version": "1.0.0",
   "description": "A vue.js frontend for jhipster",
   "author": "generator-jhipster",

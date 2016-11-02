@@ -3,6 +3,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
 var packagejs = require(__dirname + '/../../package.json');
+var writeFiles = require('./files').writeFiles;
 
 // Stores JHipster variables
 var jhipsterVar = {
@@ -46,36 +47,16 @@ module.exports = yeoman.generators.Base.extend({
       this.prompt(prompts, function(props) {
         this.props = props;
         // To access props later use this.props.someOption;
+        this.props.jhipsterVar = jhipsterVar;
         done();
       }.bind(this));
   },
 
-  writing: function() {
-    var done = this.async();
-
-    // if no selection, do nothing
-    if (!this.props.usevue) {
-      this.log('Nothing to do...');
-      return;
-    }
-
-    this.baseName = jhipsterVar.baseName;
-    this.packageName = jhipsterVar.packageName;
-    this.angularAppName = jhipsterVar.angularAppName;
-    this.frontendBuilder = jhipsterVar.frontendBuilder;
-    var webappDir = jhipsterVar.webappDir;
-
-    // Pages and modules
-    this.template('src/main/webapp/_package.json', webappDir + 'package.json');
-    this.template('src/main/webapp/_index.html', webappDir + 'index.html');
-
-    done();
-
-  },
+  writing: writeFiles(),
 
   install: function() {
     var injectDependenciesAndConstants = function() {
-        this.spawnCommand('npm', ['install']);
+        //this.spawnCommand('npm', ['install']);
     };
 
     this.installDependencies({
