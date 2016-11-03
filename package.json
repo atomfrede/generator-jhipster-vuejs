@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-vuejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JHipster module to use Vue.js instead of angular as a front end for jhipster",
   "homepage": "https://github.com/atomfrede/generator-jhipster-vuejs",
   "author": "Frederik Hahne <atomfrede@gmail.com> (http://atomfrede.github.com/shiny-adventure/)",
