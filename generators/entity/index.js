@@ -34,9 +34,10 @@ module.exports = yeoman.Base.extend({
 
     validate: function () {
       // this shouldnt be run directly
-      if (!this.entityConfig) {
-        this.env.error(chalk.red.bold('ERROR!') + ' This sub generator should be used only from JHipster and cannot be run directly...\n');
-      }
+      // Does not work yet
+      // if (!this.entityConfig) {
+        // this.env.error(chalk.red.bold('ERROR!') + ' This sub generator should be used only from JHipster and cannot be run directly...\n');
+      // }
     },
 
     getEntitityNames: function () {
@@ -74,7 +75,7 @@ module.exports = yeoman.Base.extend({
       this.frontendBuilder = jhipsterVar.frontendBuilder;
       this.changelogDate = jhipsterFunc.dateFormatForLiquibase();
 
-      var webappDir = jhipsterVar.webappDir,
+      var webappDir = jhipsterVar.webappDir
 
     },
     updateConfig : function() {

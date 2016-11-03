@@ -2,7 +2,7 @@
 
 ![JHipster with Vue.js][logo-image]
 
-> Use Vuew.js instead of angular as a front end for jhipster
+> Use Vue.js instead of angular as a front end for jhipster
 
 ## Installation
 
@@ -16,6 +16,7 @@ Then run the module on a JHipster generated application:
 
 ```bash
 yo jhipster-vuejs
+ yo jhipster-vuejs:entity
 ```
 
 ## Usage
