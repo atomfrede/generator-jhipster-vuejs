@@ -1,7 +1,7 @@
 <template>
   <div id="app" v-md-theme="'default'">
 
-    <nav-bar title="Vueister!"></nav-bar>
+    <nav-bar title="<%= angularAppName %>"></nav-bar>
   </div>
 </template>
 
