@@ -33,6 +33,9 @@ function writeFiles() {
             this.template('src/main/webapp/src/components/_Ribbon.vue', this.webappDir + '/src/components/Ribbon.vue');
             this.template('src/main/webapp/src/components/_ProfileService.js', this.webappDir + '/src/components/ProfileService.js');
 
+            this.template('src/main/webapp/src/components/login/_Login.vue', this.webappDir + '/src/components/login/Login.vue');
+            this.template('src/main/webapp/src/components/login/_LoginForm.vue', this.webappDir + '/src/components/login/LoginForm.vue');
+
 
         },
 
