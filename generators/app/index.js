@@ -54,6 +54,14 @@ module.exports = yeoman.generators.Base.extend({
 
   writing: writeFiles(),
 
+  registering: function () {
+      try {
+        jhipsterFunc.registerModule("generator-jhipster-vuejs", "entity", "post", "entity", "Generate VueJS frontend for generated entities");
+      } catch (err) {
+        this.log(chalk.red.bold('WARN!') + ' Could not register as a jhipster post entity creation hook...\n');
+      }
+  },
+
   install: function() {
     var injectDependenciesAndConstants = function() {
         //this.spawnCommand('npm', ['install']);
