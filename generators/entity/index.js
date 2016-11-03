@@ -8,7 +8,7 @@ var path = require('path'),
     glob = require("glob");
 
 // Stores JHipster variables
-var jhipsterVar = {moduleName: 'entity-audit'};
+var jhipsterVar = {moduleName: 'vuejs'};
 
 // Stores JHipster functions
 var jhipsterFunc = {};
