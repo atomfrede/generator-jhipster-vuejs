@@ -1,5 +1,7 @@
 # generator-jhipster-vuejs [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
+:warning: This module is **deprecated**. Follow along the development of a new blueprint supporting Vue.js within jhipster at https://github.com/jhipster/jhipster-vuejs :warning:
+
 ![JHipster with Vue.js][logo-image]
 
 > Use Vue.js instead of angular as a front end for jhipster
